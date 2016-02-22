@@ -13,6 +13,8 @@
 #      PREDICT THE WORDS USED IN THE FIRST COMMENT
 #      PREDICT THE ACTUAL COMMENT??
 
+# graph player sentiment vs actual ELO/
+
 import praw
 import nltk
 
