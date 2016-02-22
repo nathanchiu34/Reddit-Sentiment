@@ -1,0 +1,17 @@
+# Here is some sample output from the sentiment model so far. As you can tell it's not as accurate as one would 
+# percieve. It's not built off representative data though, so changes remain to be seen...
+# Using PRAW 3.3.0 as of 02/21/2016 10:37
+
+INPUT:
+print search_and_return('lebron','nba',NBclassifier)
+print search_and_return('trump' , 'politics', NBclassifier)
+print search_and_return('peyton manning', 'nfl', NBclassifier )
+print search_and_return('monty williams', 'nba', NBclassifier)
+print search_and_return('frank underwood', 'houseofcards', NBclassifier)
+
+OUTPUT:
+NEGATIVE -16 # haha really?
+NEGATIVE -11 # now this makes some sense?
+NEUTRAL -10 # hmmmmmm given the recent scandal?
+NEUTRAL -1 # thought this would be positive for sure given  his recent moving speech (RIP to his wife)
+NEUTRAL -2 # interesting!!!
