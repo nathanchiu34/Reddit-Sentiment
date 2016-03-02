@@ -6,6 +6,13 @@ from sentiment import word_feats, classifier
 #import nlp classifer 
 app = Flask(__name__)
 
+@app.route('/', methods=['POST'])
+def take_user_input():
+
+	projectpath = request.form.projectpath
+
+	return search_string, subreddit 
+
 
 @app.route('/search-and-return/<subreddit>/<string>')
 def search_and_return(search_string, subreddit, classifier):
