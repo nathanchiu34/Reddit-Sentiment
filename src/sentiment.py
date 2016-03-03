@@ -26,6 +26,5 @@ def classifier():
 
 	classifier = NaiveBayesClassifier.train(trainfeats)
 	#print 'accuracy:', nltk.classify.util.accuracy(classifier, testfeats)
-	classifier.show_most_informative_features()
-
+	
 	return classifier 
