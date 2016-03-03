@@ -71,7 +71,7 @@ def search_and_return(subreddit, search_string):
 		        comments.append(comment.score)
 		    except AttributeError:
 		    	pass
-
+		    	
 		score = 0    	
 		for i in range(0, len(comments), 2):
 			for comment in comments[i].split('\n'):
